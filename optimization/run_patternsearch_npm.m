@@ -11,7 +11,9 @@ global wc
 % wc=2; 
 % phi_m=90;
 omega=wc;
-x = patternsearch(@obj_fun_npm,x0,A,b,Aeq,beq,lb,ub);
+
+options = optimoptions('patternsearch','PlotFcn','psplotbestf');
+x = patternsearch(@obj_fun_npm,x0,A,b,Aeq,beq,lb,ub,options);
 disp('%%%%%%%%%% lambda and kd:')
 disp(x);
 
