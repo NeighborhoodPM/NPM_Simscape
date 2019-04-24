@@ -48,7 +48,7 @@ ioc_tf=ioKp+ioKi/s+ioKd*s;
 p_tf=k/(tau*s+1)/s;
 iosys_tf=ioc_tf*p_tf;
 %
-h1=figure(2);
+h1=figure;
 bode(sys_tf);
 grid on
 hold on
