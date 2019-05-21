@@ -1,6 +1,9 @@
 # NPM_Simscape
 Neighborhood phase margin method in Simscape.
 
+# Note that 
+This work has been merged into: https://github.com/Fractional-order-controller/FOFC_Benchmark
+
 # Citation
 Bo Shang, Chengdong Wu, YangQuan Chen. Neighborhood optimization method for shaping Bode plot with larger phase margin [C]. The 2019 Symposium on Small Unmanned Aerial Vehicle Technologies and Applications (SUAVTA), 2019 (accepted).
 ```
