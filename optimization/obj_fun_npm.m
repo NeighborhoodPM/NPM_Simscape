@@ -25,10 +25,10 @@ global wc phi_m
 w=wc;
 APM1 = atan2(kd*w^lambda*sin(pi*lambda/2),(1+kd*w^lambda*cos(pi*lambda/2)))...
     +atan2(1,T1*w);
-w=wc*1.5;
+w=wc*5;
 APM2 = atan2(kd*w^lambda*sin(pi*lambda/2),(1+kd*w^lambda*cos(pi*lambda/2)))...
     +atan2(1,T1*w);
-w=wc*0.5;
+w=wc/5;
 APM3 = atan2(kd*w^lambda*sin(pi*lambda/2),(1+kd*w^lambda*cos(pi*lambda/2)))...
     +atan2(1,T1*w);
 
